@@ -1,15 +1,7 @@
 {
-  "name": "metrovka",
+  "name": "oschadbank",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Dmitriy Bevz",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.8",
