@@ -1,0 +1,34 @@
+.top-menu {
+  display: flex;
+  height: inherit;
+  align-items: center;
+
+
+  &__list-item {
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+
+  &__link {
+    display: block;
+
+    color: $color-secondary-2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6875rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+    &--active {
+      color: $color-primary-4;
+    }
+
+    &:hover {
+      color: $color-primary-4;
+    }
+  }
+}
