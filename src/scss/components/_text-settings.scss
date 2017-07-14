@@ -1,0 +1,59 @@
+.text-settings {
+  position: relative;
+
+  &__language {
+
+    &-list-item {
+      display: none;
+      padding: 0 25px 0 10px;
+
+      font-size: 0.8rem;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 48px;
+      text-transform: lowercase;
+
+      background-color: $color-primary-1;
+
+      &:hover {
+        color: $color-tertiary-2;
+
+        cursor: pointer;
+      }
+
+      &--selected {
+        display: block;
+
+        color: $color-secondary-2;
+        background-color: transparent;
+
+        &:hover {
+          background-color: $color-primary-1;
+        }
+      }
+    }
+
+
+    &:hover {
+      box-shadow: 0 10px 20px rgba(0,0,0,0.16), 0 6px 6px rgba(0,0,0,0.23);
+
+      .text-settings__language-list-item {
+        display: block;
+        &:hover {
+          background-color: $color-primary-4;
+        }
+
+        &--selected {
+          color: $color-tertiary-2;
+
+          background-color: $color-primary-1;
+
+          &:hover {
+            background-color: $color-primary-1;
+          }
+        }
+      }
+    }
+  }
+}
