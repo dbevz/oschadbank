@@ -5,6 +5,7 @@
 
 .header {
   position: relative;
+  z-index: 3;
 
   display: flex;
   justify-content: space-between;
@@ -16,7 +17,21 @@
 }
 
 .content {
+  position: relative;
+  z-index: 1;
+
   height: 3000px;
+  padding-right: 260px;
+
+  background-color: $color-secondary-2;
+  width: 100%;
+}
+
+.footer {
+  min-height: 420px;
+  width: 100%;
+
+  background-color: $color-tertiary-1;
 }
 
 .sidebar {
