@@ -1,0 +1,42 @@
+.slider {
+  position: relative;
+
+  padding: 85px 50px 60px 60px;
+  height: 580px;
+
+  background-color: $color-deposit-1;
+
+  &__header {
+    margin-bottom: 70px;
+    color: $color-secondary-1;
+    font-family: 'FuturaPT', sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+  }
+
+  &__description {
+    margin-bottom: 40px;
+
+    color: #384b6d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  &__bottom-card {
+    position: absolute;
+    bottom: -30px;
+    right: 20px;
+
+    padding: 20px 25px 25px 25px;
+    width: 355px;
+
+    color: $color-tertiary-4;
+    font-family: 'FuturaPT', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5;
+
+    background-color: $color-primary-1;
+  }
+}
