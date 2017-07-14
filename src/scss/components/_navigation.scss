@@ -1,0 +1,35 @@
+.navigation {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 20px 40px;
+    width: 100%;
+
+    background-color: $color-secondary-1;
+
+  &__list {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+  }
+
+  &__link {
+    display: block;
+    padding: 10px 20px;
+
+    color: $color-tertiary-4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $color-primary-1;
+    }
+
+  }
+}
