@@ -1,0 +1,53 @@
+.card {
+  position: relative;
+  padding: 60px 50px 50px 60px;
+
+  .card__header {
+    margin-bottom: 45px;
+  }
+
+  &__title {
+    font-family: 'FuturaPT', sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+  }
+
+  &__dropdown {
+    padding:7px 10px;
+    margin: 0 20px;
+
+    border: solid 2px $color-deposit-1;
+  }
+
+  &__sub-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+  }
+
+  &__table {
+    margin-left: -80px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    border-spacing: 80px 30px;
+    border-collapse: separate;
+
+    th {
+      font-family: 'FuturaPT', sans-serif;
+      font-weight: 600;
+      font-size: 0.813rem;
+      color: $color-secondary-2;
+    }
+
+    td {
+      font-family: 'FuturaPT', sans-serif;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    td:first-child {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+  }
+}
