@@ -2,6 +2,7 @@
 @import 'helpers/mixins.scss';
 
 @import 'base/reset.scss';
+@import 'base/fonts.scss';
 @import 'base/typography.scss';
 @import 'base/grid.scss';
 @import 'base/common.scss';
@@ -10,3 +11,5 @@
 @import 'components/text-settings.scss';
 @import 'components/logo.scss';
 @import 'components/navigation.scss';
+@import 'components/slider.scss';
+@import 'components/card.scss';
